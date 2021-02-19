@@ -1,0 +1,624 @@
+Jaar,Maand,Type,Gemeente,Bereik
+2019,11,animatie,beerse,500
+2019,10,workshop,berlaar,45
+2019,9,open initiatie,herentals,200
+2019,12,workshop,herentals,30
+2019,9,animatie,herentals,250
+2019,10,animatie,herentals,350
+2019,11,workshop,malle,336
+2019,10,workshop,malle,80
+2019,9,open initiatie,turnhout,400
+2019,9,workshop,turnhout,60
+2019,9,open initiatie,turnhout,80
+2019,9,open initiatie,turnhout,100
+2019,12,workshop,turnhout,17
+2019,10,workshop,turnhout,40
+2019,12,workshop,turnhout,22
+2019,12,open initiatie,turnhout,450
+2019,10,open initiatie,westerlo,200
+2019,10,workshop,zoersel,126
+2018,12,animatie,antwerpen,150
+2018,12,animatie,brasschaat,300
+2018,9,animatie,herselt,800
+2018,11,animatie,meerhout,300
+2018,10,kamp,herentals,12
+2018,11,open initiatie,turnhout,20
+2018,9,workshop,herentals,24
+2018,9,workshop,herentals,140
+2018,10,workshop,herentals,10
+2018,11,workshop,herenthout,20
+2018,9,workshop,herselt,500
+2018,10,workshop,malle,88
+2018,11,workshop,malle,341
+2018,9,workshop,meerhout,100
+2018,9,workshop,nijlen,150
+2018,9,workshop,turnhout,5
+2018,9,workshop,turnhout,500
+2018,9,workshop,wilrijk,30
+2018,10,workshop,zoersel,100
+2018,8,animatie,antwerpen,1000
+2018,3,workshop,balen,25
+2018,6,open initiatie,beerse,50
+2018,7,open initiatie,beerse,10
+2018,8,workshop,bouwel,30
+2018,6,open initiatie,geel,50
+2018,7,workshop,geel,77
+2018,8,open initiatie,geel,100
+2018,7,animatie,geel,77
+2018,8,open initiatie,gierle,100
+2018,8,animatie,gierle,250
+2018,8,workshop,grobbendonk,60
+2018,6,open initiatie,heist-o-d-berg,50
+2018,2,workshop,herentals,25
+2018,6,workshop,herentals,40
+2018,6,workshop,herentals,450
+2018,6,open initiatie,herentals,50
+2018,8,open initiatie,herentals,100
+2018,8,kamp,herentals,24
+2018,8,kamp,herentals,65
+2018,6,animatie,herentals,40
+2018,8,kamp,herselt,30
+2018,5,workshop,itegem,100
+2018,8,workshop,kasterle,80
+2018,7,bijscholing,leuven,16
+2018,3,workshop,lichtaart,35
+2018,6,open initiatie,lichtaart,250
+2018,6,workshop,malle,464
+2018,4,workshop,nijlen,20
+2018,6,open initiatie,nijlen,20
+2018,4,workshop,oosterlo,30
+2018,4,workshop,oud-turnhout,80
+2018,4,animatie,oud-turnhout,80
+2018,8,workshop,pulderbos,15
+2018,6,workshop,pulle,80
+2018,4,workshop,retie,30
+2018,7,workshop,retie,30
+2018,7,open initiatie,retie,50
+2018,7,workshop,retie,20
+2018,5,workshop,schoten,15
+2018,5,workshop,turnhout,120
+2018,5,workshop,turnhout,180
+2018,6,open initiatie,turnhout,25
+2018,6,workshop,turnhout,35
+2018,6,open initiatie,turnhout,50
+2018,7,open initiatie,turnhout,150
+2018,6,open initiatie,turnhout,100
+2018,8,workshop,turnhout,18
+2018,4,kamp,turnhout,35
+2018,8,kamp,turnhout,44
+2018,6,animatie,turnhout,300
+2018,4,workshop,vorselaar,300
+2018,2,animatie,vorselaar,200
+2018,8,workshop,vosselaar,40
+2018,7,animatie,waver,500
+2018,7,workshop,westerlo,15
+2017,9,workshop,lille,50
+2017,9,open initiatie,herentals,200
+2017,9,workshop,herentals,15
+2017,9,open initiatie,herentals,100
+2017,9,open initiatie,herentals,400
+2017,10,workshop,herentals,10
+2017,9,animatie,herentals,205
+2017,9,animatie,herentals,65
+2017,9,animatie,herentals,270
+2017,10,animatie,herentals,270
+2017,9,workshop,herselt,500
+2017,9,animatie,herselt,150
+2017,12,open initiatie,hoboken,50
+2017,11,workshop,malle,100
+2017,9,schoolactiviteit,malle,100
+2017,9,schoolactiviteit,malle,90
+2017,10,schoolactiviteit,malle,80
+2017,10,schoolactiviteit,malle,36
+2017,10,schoolactiviteit,malle,50
+2017,11,schoolactiviteit,malle,66
+2017,11,schoolactiviteit,malle,51
+2017,11,schoolactiviteit,malle,60
+2017,12,schoolactiviteit,malle,40
+2017,9,schoolactiviteit,merksplas,40
+2017,9,open initiatie,nijlen,400
+2017,10,animatie,olen,200
+2017,11,open initiatie,vorselaar,100
+2017,11,animatie,vorselaar,95
+2017,10,schoolactiviteit,zoersel,120
+2017,3,animatie,vosselaar,300
+2017,8,animatie,gierle,500
+2017,3,animatie,herentals,300
+2017,6,animatie,lille,450
+2017,5,animatie,mol,300
+2017,6,animatie,mol,100
+2017,2,animatie,neerpelt,400
+2017,7,animatie,schilde,350
+2017,5,animatie,turnhout,1000
+2017,7,animatie,waver,600
+2017,1,bijscholing,beerse,60
+2017,5,bijscholing,herentals,40
+2017,5,bijscholing,kasterlee,20
+2017,6,bijscholing,leuven,20
+2017,8,kamp,herentals,30
+2017,8,kamp,herentals,47
+2017,7,kamp,herselt,32
+2017,8,kamp,lummen,30
+2017,8,kamp,olen,12
+2017,4,kamp,turnhout,27
+2017,8,kamp,turnhout,35
+2017,6,schoolactiviteit,malle,603
+2017,2,workshop,arendonk,40
+2017,7,workshop,beerse,30
+2017,6,workshop,gierle,20
+2017,8,workshop,gierle,250
+2017,7,workshop,grobbendonk,20
+2017,4,workshop,grobbendonk,25
+2017,3,workshop,herentals,16
+2017,3,workshop,herentals,20
+2017,6,workshop,herentals,60
+2017,8,workshop,herenthout,40
+2017,6,workshop,herentals,16
+2017,5,workshop,itegem,80
+2017,6,workshop,kasterlee,15
+2017,8,workshop,kasterlee,75
+2017,5,workshop,lichtaart,300
+2017,4,workshop,nijlen,30
+2017,7,workshop,nijlen,20
+2017,4,workshop,olen,200
+2017,8,workshop,olen,500
+2017,8,workshop,pulderbos,20
+2017,5,workshop,ramsel,15
+2017,6,workshop,turnhout,300
+2017,7,workshop,turnhout,500
+2017,7,workshop,turnhout,200
+2017,8,workshop,turnhout,30
+2017,3,workshop,vorselaar,200
+2017,7,workshop,vorselaar,300
+2017,7,workshop,westerlo,150
+2017,4,workshop,westmalle,20
+2017,3,workshop,zandhoven,35
+2016,9,workshop,herentals,200
+2016,11,workshop,herentals,50
+2016,10,animatie,herentals,200
+2016,11,animatie,herentals,50
+2016,9,open initiatie,herenthout,40
+2016,9,open initiatie,herselt,200
+2016,9,animatie,herselt,3000
+2016,11,workshop,heusden-zolder,30
+2016,12,animatie,kasterlee,450
+2016,11,workshop,lier,30
+2016,9,workshop,lille,50
+2016,12,animatie,lille,1000
+2016,10,workshop,malle,80
+2016,11,workshop,malle,240
+2016,9,animatie,mol,1100
+2016,9,animatie,olmen,
+2016,9,workshop,oud-turnhout,40
+2016,10,open initiatie,oud-turnhout,
+2016,9,animatie,turnhout,
+2016,11,workshop,vorselaar,
+2016,10,workshop,zoersel,126
+2016,7,kamp,antwerpen,20
+2016,4,open initiatie,bonheiden ,200
+2016,4,schoolactiviteit,gierle,32
+2016,8,open initiatie,gierle,200
+2016,4,schoolactiviteit,herentals,35
+2016,5,workshop,herentals,30
+2016,6,schoolactiviteit,herentals,120
+2016,4,open initiatie,herentals,200
+2016,4,kamp,herentals,10
+2016,7,kamp,herentals,42
+2016,7,kamp,herentals,20
+2016,7,kamp,herentals,20
+2016,7,kamp,herentals,10
+2016,8,kamp,herentals,20
+2016,8,kamp,herentals,20
+2016,8,kamp,herselt,22
+2016,1,workshop,hoogstraten,35
+2016,4,workshop,lille,30
+2016,8,kamp,lummen,30
+2016,2,schoolactiviteit,malle,45
+2016,3,schoolactiviteit,malle,45
+2016,3,schoolactiviteit,malle,60
+2016,4,schoolactiviteit,malle,60
+2016,4,schoolactiviteit,malle,80
+2016,5,schoolactiviteit,malle,60
+2016,5,schoolactiviteit,malle,80
+2016,5,schoolactiviteit,malle,80
+2016,5,schoolactiviteit,malle,80
+2016,5,schoolactiviteit,malle,80
+2016,6,schoolactiviteit,malle,25
+2016,8,open initiatie,olen,300
+2016,3,animatie,olen,205
+2016,8,animatie,olen,180
+2016,5,open initiatie,oud-turnhout,200
+2016,8,workshop,pulderbos,12
+2016,8,workshop,pulderbos,12
+2016,2,workshop,ravels,20
+2016,3,open initiatie,turnhout,147
+2016,7,open initiatie,turnhout,600
+2016,7,kamp,turnhout,10
+2016,2,workshop,westerlo,30
+2016,4,open initiatie,westerlo,100
+2015,11,bijscholing,hasselt,
+2015,9,workshop,herentals,200
+2015,11,bijscholing,herentals,15
+2015,12,animatie,herentals,400
+2015,9,schoolactiviteit,malle,50
+2015,9,schoolactiviteit,malle,50
+2015,10,schoolactiviteit,malle,50
+2015,10,schoolactiviteit,malle,50
+2015,10,schoolactiviteit,malle,80
+2015,11,workshop,ravels,20
+2015,11,animatie,retie,1500
+2015,9,workshop,tielen,20
+2015,9,animatie,turnhout,5000
+2015,6,open initiatie,arendonk,150
+2015,4,open initiatie,boechout,100
+2015,5,workshop,brasschaat,88
+2015,3,workshop,brecht,36
+2015,1,animatie,geel,100
+2015,1,workshop,halle-zoersel,8
+2015,3,workshop,halle-zoersel,60
+2015,3,workshop,herentals,20
+2015,4,workshop,herentals,81
+2015,6,workshop,herentals,80
+2015,3,kamp,herentals,14
+2015,7,kamp,herentals,43
+2015,7,kamp,herentals,25
+2015,7,kamp,herentals,16
+2015,7,kamp,herentals,8
+2015,8,kamp,herentals,17
+2015,8,kamp,herentals,19
+2015,8,workshop,herenthout,15
+2015,5,workshop,kasterlee,150
+2015,5,open initiatie,keerbergen,100
+2015,5,animatie,keerbergen,500
+2015,2,workshop,kessel,40
+2015,2,workshop,lille,20
+2015,8,kamp,lummen,38
+2015,2,workshop,malle,48
+2015,2,workshop,malle,20
+2015,3,workshop,malle,30
+2015,3,workshop,malle,45
+2015,3,workshop,malle,40
+2015,3,workshop,malle,60
+2015,5,workshop,malle,38
+2015,4,workshop,malle,50
+2015,4,workshop,malle,30
+2015,5,workshop,malle,50
+2015,5,workshop,malle,75
+2015,5,workshop,malle,35
+2015,4,workshop,mol,120
+2015,6,workshop,olen,20
+2015,8,open initiatie,olen,400
+2015,8,kamp,olen,32
+2015,7,animatie,olen,2000
+2015,7,animatie,olen,500
+2015,8,animatie,olen,1500
+2015,8,workshop,oud-turnhout,85
+2015,3,workshop,turnhout,12
+2015,6,open initiatie,turnhout,150
+2015,7,open initiatie,turnhout,300
+2015,7,kamp,turnhout,
+2015,7,animatie,turnhout,500
+2015,7,animatie,vorselaar,
+2015,6,animatie,vosselaar,500
+2015,7,open initiatie,westerlo,100
+2015,6,workshop,zandhoven,40
+2015,4,workshop,zoersel,108
+2014,9,open initiatie,dessel,80
+2014,9,animatie,dessel,80
+2014,12,workshop,diest,45
+2014,12,workshop,herentals,30
+2014,9,open initiatie,herentals,
+2014,9,workshop,herentals,198
+2014,9,open initiatie,herentals,500
+2014,12,workshop,herenthout,15
+2014,12,workshop,kasterlee,20
+2014,9,workshop,meerhout,90
+2014,10,workshop,olen,30
+2014,10,workshop,oostmalle,90
+2014,10,workshop,ravels,20
+2014,9,open initiatie,turnhout,60
+2014,6,bijscholing,balen,20
+2014,8,kamp,beerse,100
+2014,1,workshop,boechout,40
+2014,2,workshop,geel,30
+2014,8,open initiatie,grobbendonk,15
+2014,3,open initiatie,herentals,20
+2014,5,open initiatie,herentals,20
+2014,5,workshop,herentals,10
+2014,6,workshop,herentals,15
+2014,6,open initiatie,herentals,100
+2014,8,kamp,herentals,10
+2014,4,kamp,herentals,32
+2014,7,kamp,herentals,32
+2014,8,kamp,herentals,32
+2014,7,kamp,herentals,
+2014,8,animatie,larum,150
+2014,7,workshop,lichtaart,30
+2014,4,workshop,lint,20
+2014,3,schoolactiviteit,malle,50
+2014,4,schoolactiviteit,malle,50
+2014,4,schoolactiviteit,malle,25
+2014,4,schoolactiviteit,malle,25
+2014,5,schoolactiviteit,malle,50
+2014,5,schoolactiviteit,malle,50
+2014,6,open initiatie,nijlen,100
+2014,8,animatie,nijlen,2000
+2014,8,open initiatie,olen,50
+2014,8,open initiatie,olen,400
+2014,8,animatie,olen,80
+2014,8,animatie,olen,100
+2014,8,animatie,olen,100
+2014,5,open initiatie,oud-turnhout,100
+2014,5,open initiatie,turnhout,50
+2014,7,open initiatie,turnhout,250
+2014,4,kamp,turnhout,32
+2014,7,kamp,turnhout,32
+2014,6,open initiatie,vosselaar,200
+2014,8,kamp,westerlo,42
+2013,9,open initiatie,herentals,138
+2013,9,open initiatie,herentals,150
+2013,9,workshop,herentals,250
+2013,10,workshop,herentals,300
+2013,9,animatie,herselt,250
+2013,9,workshop,lille,16
+2013,11,workshop,malle,40
+2013,10,workshop,malle,120
+2013,9,animatie,olen,500
+2013,9,animatie,olen,500
+2013,11,open initiatie,retie,80
+2013,9,open initiatie,vlimmeren,150
+2013,9,workshop,vlimmeren,50
+2013,9,animatie,vlimmeren,200
+2013,9,animatie,vlimmeren,
+2013,8,open initiatie,beerzel,40
+2013,5,workshop,brasschaat,80
+2013,3,workshop,herentals,20
+2013,4,workshop,herentals,15
+2013,5,workshop,herentals,100
+2013,4,kamp,herentals,
+2013,7,kamp,herentals,43
+2013,7,kamp,herentals,16
+2013,7,kamp,herentals,16
+2013,7,kamp,herentals,16
+2013,7,kamp,herentals,20
+2013,7,kamp,herentals,25
+2013,8,kamp,herentals,20
+2013,5,animatie,herentals,1500
+2013,3,animatie,herentals,1420
+2013,8,open initiatie,larum,200
+2013,8,animatie,larum,200
+2013,5,workshop,lichtaart,20
+2013,5,animatie,lint,600
+2013,4,workshop,merksplas,20
+2013,3,workshop,olen,60
+2013,7,open initiatie,olen,500
+2013,8,open initiatie,olen,80
+2013,6,animatie,olen,500
+2013,7,animatie,olen,500
+2013,7,animatie,olen,500
+2013,8,animatie,olen,80
+2013,8,animatie,olen,500
+2013,8,animatie,olen,500
+2013,5,open initiatie,oud-turnhout,350
+2013,5,workshop,ravels,80
+2013,5,workshop,ravels,20
+2013,5,workshop,turnhout,100
+2013,6,open initiatie,turnhout,
+2013,7,workshop,turnhout,300
+2013,8,workshop,turnhout,
+2013,2,kamp,turnhout,20
+2013,4,kamp,turnhout,16
+2013,7,kamp,turnhout,32
+2013,8,animatie,turnhout,
+2013,5,workshop,westerlo,150
+2013,6,workshop,westerlo,25
+2013,8,kamp,westerlo,42
+2013,5,workshop,zandhoven,120
+2012,10,workshop,hamont-achel,40
+2012,9,workshop,herentals,12
+2012,9,workshop,herentals,100
+2012,9,workshop,herentals,40
+2012,11,bijscholing,herentals,4
+2012,11,workshop,herentals,20
+2012,9,animatie,herentals,400
+2012,10,animatie,herentals,300
+2012,9,workshop,mol,250
+2012,9,animatie,olen,1500
+2012,9,workshop,zedelgem,100
+2012,9,animatie,zedelgem,200
+2012,5,workshop,berlaar,42
+2012,1,workshop,boechout,50
+2012,4,workshop,booischot,180
+2012,5,open initiatie,boom,500
+2012,5,animatie,boom,500
+2012,4,workshop,geel,20
+2012,4,workshop,gierle,40
+2012,8,open initiatie,gierle,100
+2012,1,workshop,herentals,40
+2012,3,workshop,herentals,6
+2012,5,workshop,herentals,200
+2012,5,workshop,herentals,10
+2012,4,kamp,herentals,16
+2012,7,kamp,herentals,36
+2012,7,kamp,herentals,17
+2012,7,kamp,herentals,18
+2012,7,kamp,herentals,16
+2012,7,kamp,herentals,70
+2012,8,kamp,herentals,20
+2012,7,kamp,herentals,19
+2012,8,kamp,herentals,22
+2012,5,animatie,herentals,60
+2012,5,animatie,herentals,100
+2012,7,animatie,herentals,500
+2012,8,open initiatie,hoogstraten,500
+2012,8,animatie,hoogstraten,500
+2012,7,animatie,hoogstraten,100
+2012,1,workshop,kasterlee,60
+2012,3,workshop,kasterlee,15
+2012,6,open initiatie,meer,120
+2012,7,animatie,meer,300
+2012,5,animatie,meerhout,200
+2012,2,animatie,neerpelt,450
+2012,4,workshop,olen,40
+2012,8,open initiatie,olen,200
+2012,2,kamp,olen,40
+2012,6,animatie,steenhuffel,300
+2012,4,workshop,turnhout,20
+2012,1,workshop,turnhout,20
+2012,6,workshop,turnhout,100
+2012,5,open initiatie,westerlo,50
+2012,8,kamp,westerlo,42
+2012,5,workshop,zoersel,160
+2011,9,workshop,herentals,120
+2011,10,workshop,herentals,75
+2011,11,workshop,herentals,15
+2011,11,workshop,hulshout,70
+2011,9,open initiatie,lichtaart,150
+2011,9,workshop,meerhout,250
+2011,10,workshop,merksplas,45
+2011,9,animatie,neerpelt,400
+2011,12,animatie,oevel,200
+2011,9,animatie,olen,4000
+2011,11,animatie,olen,2200
+2011,12,animatie,olen,250
+2011,12,animatie,olen,100
+2011,2,workshop,beerse,15
+2011,2,workshop,geel,150
+2011,5,workshop,gierle,25
+2011,8,open initiatie,gierle,75
+2011,2,workshop,heist-o-d-berg,50
+2011,3,open initiatie,herentals,100
+2011,4,open initiatie,herentals,70
+2011,5,workshop,herentals,125
+2011,5,open initiatie,herentals,100
+2011,4,kamp,herentals,30
+2011,7,kamp,herentals,38
+2011,7,kamp,herentals,16
+2011,7,kamp,herentals,16
+2011,8,kamp,herentals,16
+2011,8,kamp,herentals,16
+2011,8,kamp,herentals,12
+2011,7,kamp,herentals,30
+2011,8,kamp,herentals,29
+2011,3,workshop,kasterlee,25
+2011,7,workshop,merksplas,335
+2011,4,workshop,olen,70
+2011,8,open initiatie,olen,120
+2011,2,kamp,olen,60
+2011,6,animatie,olen,250
+2011,5,animatie,rijkevorsel,60
+2011,8,workshop,tielen,45
+2011,2,workshop,turnhout,125
+2011,2,workshop,veerle-laakdal,225
+2011,3,open initiatie,vorselaar,100
+2011,8,kamp,westerlo,40
+2011,1,workshop,wiekevorst,15
+2011,4,workshop,zoersel,126
+2010,11,schoolactiviteit,herentals,14
+2010,10,schoolactiviteit,herentals,30
+2010,9,schoolactiviteit,herentals,120
+2010,12,open initiatie,herentals,50
+2010,12,animatie,herentals,2000
+2010,11,open initiatie,olen,60
+2010,3,workshop,beerse,30
+2010,8,workshop,beerse,80
+2010,3,animatie,brussel,80
+2010,5,open initiatie,geel,
+2010,1,animatie,gent,250
+2010,3,workshop,herentals,15
+2010,3,workshop,herentals,25
+2010,4,open initiatie,herentals,75
+2010,4,workshop,herentals,160
+2010,6,workshop,herentals,40
+2010,6,open initiatie,herentals,50
+2010,7,open initiatie,herentals,60
+2010,4,kamp,herentals,30
+2010,7,kamp,herentals,30
+2010,7,kamp,herentals,32
+2010,7,kamp,herentals,32
+2010,8,kamp,herentals,40
+2010,8,kamp,herentals,35
+2010,8,kamp,herentals,18
+2010,7,kamp,herentals,18
+2010,8,kamp,herentals,20
+2010,3,animatie,herentals,550
+2010,3,bijscholing,kessel,20
+2010,2,animatie,leuven,250
+2010,3,schoolactiviteit,lichtaart,80
+2010,4,schoolactiviteit,lichtaart,80
+2010,5,open initiatie,lichtaart,125
+2010,4,animatie,lichtaart,500
+2010,7,workshop,nijlen,18
+2010,4,open initiatie,noorderwijk,75
+2010,3,workshop,olen,60
+2010,8,open initiatie,olen,200
+2010,5,workshop,oud-turnhout,120
+2010,3,open initiatie,peer,100
+2010,4,kamp,peer,15
+2010,5,open initiatie,rijkevorsel,16
+2010,4,open initiatie,turnhout,200
+2010,4,animatie,turnhout,200
+2010,3,workshop,weelde,80
+2010,5,open initiatie,westerlo,200
+2010,8,kamp,westerlo,40
+2010,4,workshop,zandhoven,112
+2009,10,bijscholing,geel,21
+2009,9,workshop,herentals,120
+2009,10,open initiatie,herentals,50
+2009,10,animatie,herentals,300
+2009,9,workshop,lichtaart,20
+2009,10,workshop,pullaar,70
+2009,2,kamp,beerse,24
+2009,2,open initiatie,geel,70
+2009,4,bijscholing,herentals,12
+2009,1,schoolactiviteit,herentals,30
+2009,7,open initiatie,herentals,14
+2009,7,open initiatie,herentals,200
+2009,4,kamp,herentals,30
+2009,7,kamp,herentals,30
+2009,8,kamp,herentals,30
+2009,7,kamp,herentals,30
+2009,7,kamp,herentals,30
+2009,7,kamp,herentals,30
+2009,1,animatie,herentals,500
+2009,3,animatie,herentals,1500
+2009,4,animatie,herentals,4500
+2009,4,schoolactiviteit,kessel,130
+2009,4,open initiatie,olen,50
+2009,6,schoolactiviteit,olen,80
+2009,8,open initiatie,olen,100
+2009,4,kamp,peer,15
+2009,7,kamp,peer,15
+2009,5,schoolactiviteit,turnhout,100
+2009,5,open initiatie,turnhout,10
+2009,6,open initiatie,westerlo,30
+2009,7,kamp,westerlo,40
+2008,9,workshop,,250
+2008,12,workshop,anderlecht,15
+2008,9,workshop,herentals,20
+2008,11,workshop,herentals,20
+2008,12,workshop,herentals,160
+2008,10,workshop,olen,20
+2008,3,workshop,alsemberg,76
+2008,3,workshop,berlaar,68
+2008,5,animatie,genk,5000
+2008,4,workshop,herentals,42
+2008,2,workshop,herentals,16
+2008,5,workshop,herentals,17
+2008,6,open initiatie,herentals,80
+2008,6,open initiatie,herentals,140
+2008,6,open initiatie,herentals,100
+2008,6,open initiatie,herentals,10
+2008,7,open initiatie,herentals,110
+2008,4,kamp,herentals,30
+2008,7,kamp,herentals,30
+2008,7,kamp,herentals,30
+2008,8,kamp,herentals,30
+2008,1,workshop,heverlee,35
+2008,8,workshop,laakdal,60
+2008,4,open initiatie,mol,60
+2008,2,workshop,sint michielsgestel (nederland),150
+2008,3,workshop,tessenderlo,100
+2008,8,kamp,westerlo,40
+2008,2,workshop,wezemaal,27
+2008,5,workshop,zaventem,95

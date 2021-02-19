@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Inschrijvingen</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+</head>
+
+<body class="selection-none">
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Map Column -->
+      <div class="col-md-6" id="map-body" style="z-index: 1;"></div>
+      <div id="aantal-legend" hidden=true>
+
+        <div id="weinig-label" class="aantal-label">
+          <p id="aantal-legend-min">1</p>
+        </div>
+        <img src="/src/YlOrRd.png" alt="">
+        <div id="veel-label" class="aantal-label">
+          <p id="aantal-legend-max">25</p>
+        </div>
+
+
+      </div>
+      <!-- Data and commands Column -->
+      <div class="col-md-6" id="commands-body">
+
+        <!-- Switch voor regio weergave -->
+        <div class="card fadeIn0">
+          <h3>Commands</h3>
+          <hr />
+          <li>
+            <p>Regios kleuren per aantal inschrijvingen: </p>
+            <label class="switch">
+              <input id="weergaveRadio" type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </div>
+
+
+        <div class="card fadeIn1">
+          <h3>Activiteiten</h3> <button id="activity-toggle" class="activitiesButton off">Alles</button>
+          <hr />
+          <label class="container">
+            <p class="activity_label">Animaties</p>
+            <input id="activiteitCheckbox" type="checkbox" name="typeActiviteit" value="Animaties" checked>
+            <span class="checkmark animatie"></span>
+          </label>
+
+          <label class="container">
+            <p class="activity_label">Kampen</p>
+            <input id="activiteitCheckbox" type="checkbox" name="typeActiviteit" value="Kampen">
+            <span class="checkmark kamp"></span>
+          </label>
+
+          <label class="container">
+            <p class="activity_label">Open initiaties</p>
+            <input id="activiteitCheckbox" type="checkbox" name="typeActiviteit" value="OpenInitiaties">
+            <span class="checkmark open-initiatie"></span>
+          </label>
+
+          <label class="container">
+            <p class="activity_label">Schoolactiviteiten</p>
+            <input id="activiteitCheckbox" type="checkbox" name="typeActiviteit" value="Schoolactiviteiten">
+            <span class="checkmark school"></span>
+          </label>
+
+          <label class="container">
+            <p class="activity_label">Workshops</p>
+            <input id="activiteitCheckbox" type="checkbox" name="typeActiviteit" value="Workshops">
+            <span class="checkmark workshop"></span>
+          </label>
+
+          <label class="container">
+            <p class="activity_label">Bijscholing</p>
+            <input id="activiteitCheckbox" type="checkbox" name="typeActiviteit" value="Bijscholing">
+            <span class="checkmark bijscholing"></span>
+          </label>
+
+        </div>
+
+        <!-- Filters -->
+        <div id="filters" class="card fadeIn2">
+          <h3>Filters</h3>
+          <hr />
+          <p id="geen-filters">Geen</p>
+        </div>
+      </div>
+
+      <!-- Barcharts Column -->
+      <div class="col-md-6" id="svg-body">
+        <h1>Ledenwerving Locorotondo</h1>
+        <p class="subtitle">Vergelijking van de evolutie in het aantal nieuwe leden en het bereik van activiteiten per jaar.</p>
+        <div class="selection-none">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+
+  <!-- Loading the resources -->
+  <script src="town_to_region_dict.js"></script>
+  <script src="load_geojson.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="module" src="barchart.js" type="text/javascript"></script>
+  <script type="module" src="map.js" type="text/javascript"></script>
+  <script type="module" src="process_data.js" type="text/javascript"></script>
+  <script type="module" src="main.js" type="text/javascript"></script>
+
+</body>
+
+</html>

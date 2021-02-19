@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html, 
+body {
+    height: 100%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    display:inline;
+    font-size: 16px;
+}
+
+.selection-none {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+#aantal-legend {
+  position: absolute;
+  left: 34.5%;
+  top: 7%;
+  height: 3%;
+  width: 10%;
+  z-index: 20;
+  background-color:  #6cb9dc;
+  border: 2px #63a4c4 solid;
+  border-radius: 8px;
+  -webkit-box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+  -moz-box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+  box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+}
+
+#aantal-legend img {
+  position: absolute;
+  height: 100%;
+  left: 13%;
+  width: 65%;
+  margin: 0px;
+  display: inline-block;
+  border:  #6cb9dc 4px solid;
+}
+
+#weinig-label {
+  position: absolute;
+  height: 90%;
+  width: 15% !important;
+  top: 0;
+  left: 2%;
+  color: white;
+}
+
+#veel-label {
+  position: absolute;
+  left: 80%;
+  height: 90%;
+  width: 10% !important;
+  color: white;
+}
+
+#jaar-legend {
+  position: absolute;
+  left: 34.5%;
+  padding-top:0.57%;
+  padding-left: 2.1%;
+  top: 1%;
+  height: 5%;
+  width: 10%;
+  z-index: 21;
+  background-color: #6cb9dc;
+  /*border: 2px #63a4c4 solid;*/
+  border-radius: 8px;
+  -webkit-box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+  -moz-box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+  box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+}
+
+#jaar-label {
+  font-family: 'Lato', sans-serif;
+  display:inline;
+  font-size: 20px;
+  color: white;
+}
+
+.aantal-label p {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 1.8vmin;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  display:inline;
+}
+
+.h4-like {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  margin-bottom: 2px;
+  text-decoration: underline;
+}
+
+.smalltext {
+  font-size: 12px;
+}
+
+b {
+  font-size: 15px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px 20px 10px 30px;  /* top right bottom left */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+    -moz-box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+    box-shadow: 10px 10px 24px -15px rgba(184, 184, 184, 0.75);
+    transition: 0.5s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 10px 10px 24px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 24px -15px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 24px -15px rgba(0,0,0,0.75);
+}
+
+
+
+.container-fluid, .row {
+    margin: 0;
+    height: 100%;
+    padding: 0px;
+}
+
+#svg-body {
+    height: 100%;
+    width: 35%;
+    background-color: #ececec;
+}
+
+#map-body {
+    height: 100%;
+    width: 45%;
+}
+
+#commands-body {
+  height: 100%;
+  width: 20%;
+  padding-top: 100px;
+  background-color: #ececec;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text, .p {
+    opacity: 0.7;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+p.subtitle{
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 25px;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 10;
+    visibility: hidden;
+    background-color: lightblue;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: orange;
+    font-family: 'Lato', sans-serif;
+}
+
+.my-label {
+    width: fit-content;
+    font-size:10px;
+    background-color: transparent;
+    background: transparent;
+    fillColor: none;
+    fillOpacity: 0;
+    background-color: none;
+    border-color: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+    interactive: false;
+    fill: "false";
+    color: white !important;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.activity_label {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.town-label {
+    width: fit-content;
+    font-size:1.4vh;
+    background-color: transparent;
+    background: transparent;
+    border-color: none;
+    background: none;
+    border: none;
+    color: rgb(33, 88, 114) !important;
+    font-family: 'Lato', sans-serif;
+}
+
+.activity-label {
+    width: fit-content;
+    font-size:0.5vw;
+    background-color: transparent;
+    background: transparent;
+    border-color: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: white !important;
+}
+
+.text-label-for-zoom-10 {
+    font-size: 10px;
+    color: white !important;
+}
+
+.text-label-for-zoom-11 {
+    font-size: 12px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.text-label-for-zoom-9 {
+    display: none;
+    color: white !important;
+}
+
+.leaflet-tooltip {
+    padding: 0px !important;
+    background-color: transparent !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.activitiesButton {
+  border-radius: 5px;
+  height: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left:5px;
+  margin-right:10px;
+  color: white;
+  opacity: 0.8;
+  font-family: 'Lato', sans-serif;
+}
+
+.on {
+  background-color: rgb(134, 206, 240);
+  border: transparent;
+}
+
+.on:hover {
+  background-color: rgb(111, 189, 224);
+  border: transparent;
+}
+
+.off {
+  background-color: rgb(194, 194, 194);
+  border: transparent;
+}
+
+.off:hover {
+  background-color: rgb(175, 175, 175);
+  border: transparent;
+}
+
+.pillButton {
+    border-radius: 50px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:5px;
+    background-color: rgb(70, 166, 211);
+    color: white;
+    opacity: 0.8;
+    font-family: 'Lato', sans-serif;
+    border: solid rgb(68, 147, 184) 2px;
+}
+
+.gemeente {
+  background-color: #2081c2;
+  border: solid #1f78b4;
+}
+
+.pillButton:hover {
+  border: solid rgb(73, 160, 201) 2px;
+  background-color: rgb(72, 174, 221);
+}
+
+.gemeente:hover {
+  background-color: #248bcf;
+  border: solid #207fbe;
+}
+
+.pillButton:after{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    content: "\00d7"; /* This will render the 'X' */
+  }
+
+/* SWITCH TOGGLE */
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    top: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  /* Activity type selectors */
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+/* Activiteitskleuren */
+
+.kamp {
+    background-color: #e31a1c;
+}
+
+.animatie {
+    background-color: #cab2d6;
+}
+
+.open-initiatie {
+    background-color: #fdbf6f;
+}
+
+.school {
+    background-color: #a65628;
+}
+
+.workshop {
+    background-color: #ff7f00;
+}
+
+.bijscholing {
+  background-color: #6a3d9a;
+}
+
+.alle {
+    background-color: #f7f7f7;
+}
+
+.checkmark {
+  opacity: 0.8;
+}
+
+
+/* Fade in */
+
+.fadeIn0 {
+  animation: fadeIn 500ms;
+}
+
+.fadeIn1 {
+  animation: hideComp 100ms, fadeIn 500ms 100ms;
+}
+
+.fadeIn2 {
+  animation: hideComp 200ms, fadeIn 500ms 200ms;
+}
+
+@keyframes hideComp {
+  0% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@keyframes fadeIn {
+  0% {opacity:0; transform: translateX(-30px);}
+  100% {opacity:1; transform: translateX(0);}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0; transform: translateX(-30px);}
+  100% {opacity:1; transform: translateX(0);}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0; transform: translateX(-30px);}
+  100% {opacity:1; transform: translateX(0);}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0; transform: translateX(-30px);}
+  100% {opacity:1; transform: translateX(0);}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0; transform: translateX(-30px);}
+  100% {opacity:1; transform: translateX(0);
+}}
