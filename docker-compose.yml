@@ -1,0 +1,25 @@
+version: '3'
+services:
+  infovis-1920-group2:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: infovis/2019-2020/group2/.
+    ports:
+      - '3800:8080'
+  infovis-1920-group6:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: infovis/2019-2020/group6/.
+    ports:
+     - '3801:80'
+  infovis-1718-groupx:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: infovis/2017-2018/groupx/.
+    ports:
+     - '3802:80'
+
+
