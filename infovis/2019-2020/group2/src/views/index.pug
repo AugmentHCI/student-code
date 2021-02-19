@@ -1,0 +1,32 @@
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width,initial-scale=1.0")
+    link(rel="stylesheet" href="/styles/index.css")
+    link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet")
+    title Global Warming Analyzing
+  body
+    .row
+      .col
+        div.titlebar
+        svg#map.container     
+      .col
+        div.titlebar
+        #scatter-container
+          svg#scatter.container
+          form
+            each val, i in ['Spring', 'Summer', 'Fall', 'Winter']
+              div
+                input(id=!val type="radio" value=`${i}` name="season")
+                label(for=!val) #{val}
+    .row
+      #buckets-container.col
+        div.titlebar
+        svg#buckets1.buckets-container
+        svg#buckets2.buckets-container
+    script(src="/scripts/d3.min.js")
+    script(src="/scripts/fisheye.js")
+    script(src="/scripts/d3-regression.min.js")
+    script(src="/scripts/topojson.min.js")
+    script(type="module" src="/scripts/main.js")

@@ -1,0 +1,173 @@
+body {
+  user-select: none;
+  margin: 2px;
+  /* background-color: rgb(20, 21, 41); */
+  background-color: rgb(243, 243, 243);
+  font-family: 'Roboto', Arial;
+  height: 97%;
+  /* color: #F3F4F5; */
+  color: rgb(65, 65, 65)
+}
+
+.container {
+  /* background-color: rgb(28, 32, 59); */
+  background-color: white;
+}
+
+.buckets-container {
+  /* background-color: rgb(28, 32, 59); */
+  background-color: white;
+  flex: 1;
+  padding: 10px;
+}
+
+.titlebar {
+  /* background-color: #f36161; */
+  background-color: #1565c0;
+  height: 4px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#map {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#scatter {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+#buckets1 {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#buckets2 {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  padding: 5px;
+}
+
+.col {
+  display: flex;
+  margin: 4px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 2px 5px 0px rgb(122,122,122);
+}
+
+.row:first-child {
+  flex: 1;
+}
+
+#buckets-container g.xScale text {
+  text-anchor: end;
+  transform: translate(-1.2em, .4em) rotate(-65deg);
+}
+
+g.buckets rect.bar:hover {
+  opacity: 0.85;
+}
+
+g.zero-line {
+  stroke: black;
+  stroke-opacity: 0.5;
+  stroke-width: 1px;
+}
+
+.legend-title {
+  text-anchor: middle;
+  dominant-baseline: baseline;
+}
+
+#scatter-container {
+  display: flex;
+  height: 100%;
+  background-color: white;
+}
+
+#scatter-container form {
+  padding-top: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.country{
+  stroke: #000000;
+  stroke-width: 0.3;
+}
+
+.country:not(.no-data):hover {
+  fill: rgb(65, 71, 92);
+  cursor: pointer;
+}
+
+g.xScale {
+  pointer-events: none;
+}
+
+.country.highlight {
+  opacity: 100%;
+}
+
+.country.no-highlight {
+  opacity: 10%;
+  stroke-opacity: 0.5;
+}
+
+.selected {
+  stroke-width: 2px;
+  stroke: black;
+}
+
+.selected-country {
+  opacity: 1;
+}
+
+/* 
+.selected{
+  fill: #ffff00;
+} */
+
+.bubble{
+  fill: #ff002b;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+svg .title {
+  text-anchor: middle;
+  dominant-baseline: hanging;
+  /* color:#F3F4F5; */
+  /* fill: #F3F4F5; */
+}
+
+svg .axis-title-y {
+  text-anchor: middle;
+  dominant-baseline: hanging;
+  /* color:#F3F4F5; */
+  /* fill: #F3F4F5; */
+}
+
+svg.container {
+  width: 100%;
+  height: 100%;
+}
+
+path.reg {
+  fill: none;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+}
