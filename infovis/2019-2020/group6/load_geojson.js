@@ -8,14 +8,14 @@ var towns_geojson_data = [];
 function initializeGeojsonFiles(towns) {
   towns.forEach(function (town) {
     var request = new XMLHttpRequest();
-    var url = "/geojson/gem-" + town + ".geojson";
+    var url = "geojson/gem-" + town + ".geojson";
     request.open("GET", url, false);
     request.send(null);
     towns_geojson_data.push({ "gemeente": town, "geojson": JSON.parse(request.responseText), "coordinates": { lat: 0, lon: 0 } });
   });
 
   var request = new XMLHttpRequest();
-  var url = "/geojson/zipcode-belgium.json";
+  var url = "geojson/zipcode-belgium.json";
   request.open("GET", url, false);
   request.send(null);
   var text = JSON.parse(request.responseText);

@@ -104,9 +104,9 @@ main();
 
 // process data (main function)
 function main() {
-  d3.csv("/data/OverzichtLeerlingen.csv").then(function (leerlingen_data) {
+  d3.csv("OverzichtLeerlingen.csv").then(function (leerlingen_data) {
     storeStudentDataInArrays(leerlingen_data);
-    d3.csv("/data/activiteiten.csv").then(function (activiteiten_data) {
+    d3.csv("activiteiten.csv").then(function (activiteiten_data) {
       storeActivitiesDataInArrays(activiteiten_data);
       visualizeMembersByRegion(); // default view
       visualiseActivitiesOnMap();
