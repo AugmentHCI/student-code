@@ -1,0 +1,465 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  color: #455a64;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  height: 100%;
+  line-height: 1.5;
+}
+
+h3 {
+  margin: 0;
+}
+
+body {
+  background-color: #eceff1;
+  display: grid;
+  grid-column-gap: 5rem;
+  grid-row-gap: 3rem;
+  grid-template-columns: auto 400px;
+  grid-template-rows: auto 500px auto;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 5rem 0;
+}
+
+.legenda,
+.warning-container {
+  align-items: center;
+  display: flex;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.switch-container {
+  align-items: center;
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.hypergraph-container {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.infobox {
+  display: flex;
+  flex-flow: column;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.course-details {
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.course-points {
+  color: #78909c;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.infobox-buttons {
+  margin-top: auto;
+}
+
+.barchart-container {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.gauges {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.hypergraph-container,
+.barchart-container {
+  position: relative;
+}
+
+.course {
+  position: relative;
+}
+
+.course:hover .course-name {
+  visibility: visible;
+}
+
+.node {
+  cursor: pointer;
+  fill-opacity: 1;
+  stroke-width: 5;
+  transition: 0.3s linear;
+}
+
+.node.compulsory {
+  fill-opacity: 0.25;
+}
+
+path.compulsory {
+  fill: #eceff1;
+  fill-opacity: 0.75;
+}
+
+.schedule-overlap path {
+  fill: #e41a1c;
+}
+
+.non-active,
+.not-interested {
+  opacity: 0.25;
+}
+
+.not-clickable {
+  cursor: default;
+}
+
+.active,
+.prerequisite,
+.schedule-overlap {
+  opacity: 1;
+}
+
+.link {
+  stroke-width: 1.5;
+  transition: 0.3s linear;
+}
+
+.link.non-active {
+  opacity: 1;
+  stroke: #cfd8dc;
+  stroke-width: 1;
+}
+
+.tooltip {
+  background-color: #455a64;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.75rem;
+  max-width: 150px;
+  opacity: 0;
+  padding: 0.25rem 0.5rem;
+  position: absolute;
+  transition: opacity 0.3s;
+  z-index: -1;
+}
+
+.tooltip.active {
+  opacity: 0.75;
+  z-index: 1;
+}
+
+.choose-bachelor-container {
+  display: flex;
+  height: 500px;
+  width: 500px;
+}
+
+.choose-bachelor {
+  margin: 0 auto;
+}
+
+.choose-bachelor p {
+  margin: 0;
+  text-align: center;
+}
+
+.choose-bachelor > p:first-child {
+  color: #90a4ae;
+}
+
+.choose-bachelor > p:nth-child(2) {
+  font-weight: bold;
+  margin: 3rem 0;
+}
+
+.choose-bachelor .choose-bachelor-button {
+  border: 1px solid #455a64;
+  border-radius: 4px;
+  color: #455a64;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.choose-bachelor-button:hover {
+  cursor: pointer;
+  color: white;
+  border-color: #2196F3;
+  background-color: #2196F3;
+}
+
+/**
+* Infobox
+*/
+/** hidden staat nu onder de rest **/
+
+.legenda-item {
+  align-items: center;
+  color: #90a4ae;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.legenda-item svg {
+  margin-right: 0.5rem;
+}
+
+.legenda-item .node {
+  fill: #cfd8dc;
+  cursor: default;
+  stroke: #cfd8dc;
+}
+
+.infobox p {
+  margin: 2rem 0;
+}
+
+.courses-list {
+  height: 100%;
+  list-style-type: none;
+  margin: 2rem 0;
+  overflow-y: auto;
+  padding: 0 1rem 0 0;
+}
+
+.courses-list li {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 0.75rem;
+  min-height: 25px;
+  padding-left: calc(25px + 1rem);
+  position: relative;
+}
+
+.courses-list li:last-child {
+  margin-bottom: 0;
+}
+
+.courses-list li:hover {
+  text-decoration: underline;
+}
+
+.courses-list svg {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.optionlist {
+  margin: .6rem 0;
+}
+
+.optionlist li {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 0.75rem;
+  min-height: 15px;
+  padding-left: calc(25px + 1rem);
+  position: relative;
+}
+
+.optionlist li:last-child {
+  margin-bottom: 0;
+}
+
+.optionlist li:hover {
+  text-decoration: underline;
+}
+
+.optionlist svg {
+  left: 6px;
+  position: absolute;
+  top: 3;
+}
+
+.semester-rect {
+  fill: #eceff1;
+}
+
+/**
+* Radio buttons
+*/
+
+/* The container */
+.radiobutton {
+  display: block;
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.25rem;
+}
+
+.radiobutton:last-child {
+  margin-bottom: 0;
+}
+
+/* Hide the browser's default radio button */
+.radiobutton input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radiobutton .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.25rem;
+  width: 1.25rem;
+  background-color: #cfd8dc;
+  border-radius: 4px;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiobutton input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked or hovered */
+.radiobutton:hover input ~ .checkmark:after,
+.radiobutton input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radiobutton .checkmark:after {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  height: 8px;
+  left: 8px;
+  top: 5px;
+  transform: rotate(45deg);
+  width: 4px;
+}
+
+/**
+* switch button
+*/
+
+/* The switch - the box around the slider */
+.switch {
+  align-items: center;
+  color: #90a4ae;
+  display: flex;
+  height: 1.5rem;
+  padding-left: 4rem;
+  position: relative;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  border-radius: 1rem;
+  height: 1.5rem;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #cfd8dc;
+  transition: .3s;
+  width: 3rem;
+}
+
+.slider:before {
+  border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(1.5rem);
+}
+
+/**
+* Barchart
+*/
+
+.rect-sem {
+  fill-opacity: 1;
+  cursor: pointer;
+}
+
+.hypergraph-text,
+.barchart-text,
+.gauge text {
+  fill: #90a4ae;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.barchart-label {
+  font-weight: normal;
+}
+
+.gauges-svg {
+  display: flex;
+  flex-flow: row;
+}
+.gauges {
+  display: flex;
+  flex-flow: column;
+}
+
+.gauge {
+  display: flex;
+}
+
+.warning {
+  background-color: rgba(228,26,28,0.25);
+  border-left: 0.5rem solid #e41a1c;
+  padding: 0.75rem 1rem;
+  color: #e41a1c;
+}
+
+.infoboxCourseTitle {
+  min-height: 55px;
+  display: flex;
+  flex-flow: row;
+}
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  opacity: 0;
+}
